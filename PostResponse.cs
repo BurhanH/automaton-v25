@@ -1,6 +1,6 @@
 namespace AutomatonV25;
 
-public class PostResponse
+public record PostResponse
 {
     public required int userId { get; init; }
     public required int id { get; init; }
