@@ -11,7 +11,7 @@ public class ApiTest
 
     public ApiTest()
     {
-        _clientApi = RestService.For<IClientApi>("https://jsonplaceholder.typicode.com");;
+        _clientApi = RestService.For<IClientApi>("https://jsonplaceholder.typicode.com");
     }
     
     [Test]
