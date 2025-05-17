@@ -16,6 +16,9 @@ TUnit<br>
 ## Project structure
 ```text
 -- automaton-v24
+   `-- .github
+       `-- workflows
+           |-- dotnet.yml
    |-- .gitignore
    |-- ApiTest.cs
    |-- AutomationV25.csproj
@@ -33,3 +36,4 @@ TUnit<br>
 2.  [.Net](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
 3.  [TUnit](https://tunit.dev/)
 4.  [Refit](https://reactiveui.github.io/refit/)
+5.  [GitHub Action](https://github.com/features/actions)
